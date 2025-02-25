@@ -1,10 +1,8 @@
 package VendingMachine;
 
 public enum Coin {
-    RUPEE(1),
-    DOLLAR(80),
-    QUARTER(25);
-
+    RUPEE(1);
+    
     public int value;
 
     Coin(int val) {
